@@ -1,13 +1,11 @@
-
-
 def add(a, b):
-    return  # ...
+    c=a+b
+    return c
 
 
 def main():
-    a = input  # ...
-    b = input  # ...
-
+    a = int(input("Enter a number :"))
+    b = int(input("Enter a number :")) 
     c = add(a, b)
-    print  # ...
-.
+    print("The sum of 1 and 2 is {}".format(c))
+main()
