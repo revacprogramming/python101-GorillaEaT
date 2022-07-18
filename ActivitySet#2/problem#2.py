@@ -1,19 +1,18 @@
 
 def add(a, b):
-    pass  # ...
+    c=a+b
+    return c
 
 
 def output(a, b, sum):
-    pass  # ...
+    print("{0}+{1}={2}".format(a,b,sum))
 
 
 def main():
-    a, b = input_two_numbers()
+    a, b = [int(x) for x in input("input?:").split()]
     sum = add(a, b)
-
     output(a, b, sum)
 
 
 if __name__ == '__main__':
     main()
-.
